@@ -58,13 +58,13 @@ REACT_APP_CHAIN_ID=137
 
 ### Test before merge to main
 
--   `fork the project` - fork the ricochet-frontend repo.
+-   **Fork** - fork the ricochet-frontend repo.
 
--   `create a branch` - please avoid using special characters in your branch name:
+-   **Create a branch** - please avoid using special characters in your branch name:
     https://docs.github.com/en/get-started/using-git/dealing-with-special-characters-in-branch-and-tag-names
 
--   `create a PR` - create a pull request on GitHub.
+-   **Open a PR** - create a pull request on GitHub.
 
--   `test your changes` - Check github actions, once all checks are successful, a new environment will be created in a few minutes, please check comments to get the complete url. It will look something like this:
+-   **Test** - Check github actions, once all checks are successful, a new environment will be created in a few minutes, please check comments to get the complete url. It will look something like this:
     `a380c3be5e6284f4ca1dfc37a12b3033-851332533.eu-west-1.elb.amazonaws.com/your-branch-name`
     the environment will be destroyed once the PR is merged or
